@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta charset="ÜTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Search Application</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Image Search Application</h1>
+
+    <form name="form" action="">
+      <input id="search-input" placeholder="Search for images" type="text" />
+      <button id="search-button">Search</button>
+    </form>
+
+    <div class="search-results">
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1660681438585-656bfcbfd1f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+          alt="beautiful-woman"
+        />
+        <a href="https://unsplash.com/photos/D5rt1ts8YDA" target="_blank"
+          >A beautiful woman</a
+        >
+      </div>
+      <div class="search-result">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1661286655956-08fb4bfa30b9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+          alt="a-sexy-woman"
+        />
+        <a href="https://unsplash.com/photos/UrQHOtLb8-0" target="_blank"
+          >A sexy woman</a
+        >
+      </div>
+      <div class="search-result">
+        <img
+          src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=871&q=80"
+          alt="my-dream-house"
+        />
+        <a href="https://unsplash.com/photos/hHz4yrvxwlA" target="_blank"
+          >My dream house</a
+        >
+      </div>
+    </div>
+
+    <button id="show-more-button">Show more</button>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
